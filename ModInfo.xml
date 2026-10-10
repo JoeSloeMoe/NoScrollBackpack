@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="NoScrollBackpack" />
+	<DisplayName value="No Backpack Scrolling" />
+	<Description value="This modlet displays the whole inventory without scrollbars" />
+	<Author value="JoeSloeMoe" />
+	<Version value="2.0.0.0" />
+	<Website value="" />
+</xml>
