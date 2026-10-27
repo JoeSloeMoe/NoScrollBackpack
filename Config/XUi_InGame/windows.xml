@@ -2,11 +2,11 @@
     <!-- resize backpack and container window-->
     <set xpath="/windows/window[@name='windowBackpack']/@width">618</set>
     <set xpath="/windows/window[@name='windowBackpack']/@height">450</set>
-    <set xpath="/windows/window[@name='windowBackpack']/rect[@name='content']/@height">410</set>
+    <set xpath="/windows/window[@name='windowBackpack']/rect[@name='content']/@height">410</set> 
     <!-- resize inventory window and assign BP_stack_scroll to manage actual individual cell display in the inventory (see templates.xml)-->
 	<set xpath="/windows/window[@name='windowBackpack']/rect[@name='content']/scrollview[@showcondition='always']">
-		<grid depth="1" name="inventory" rows="8" cols="12" cell_width="50" cell_height="50" controller="Backpack" repeat_content="true" >
-			<BP_stack_scroll name="0" cell_size="50"/>
+		<grid depth="1" name="inventory" rows="8" cols="12" cell_width="50" cell_height="50" repeat_content="true" >
+			<Inventory_stack_noscroll name="0" cell_size="50"/>
 		</grid>
-	</set> 
+	</set> 	
 </configs>
